@@ -1,0 +1,120 @@
+.right-sidebar {
+  position: fixed;
+  right: 25px;
+  top: 90px;
+  width: 270px;
+  padding: 20px 16px;
+  background: #f7f7f7;
+  height: 650px;
+  overflow-y: auto;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.07);
+  z-index: 100;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  color: #888;
+  padding-bottom: 6px;
+  transition: all 0.2s ease;
+}
+
+.tabs .active {
+  color: #111;
+}
+
+.user-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.user-card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  height: 90px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.user-details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.4);
+  padding: 8px 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.user-details img {
+  width: 34px;
+  height: 34px;
+  border-radius: 10%;
+  
+}
+
+.AvatarOnline {
+  background: #18b978 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  border: solid white;
+  height: 6px;
+  width: 6px;
+  position: relative;
+  left: 26px;
+  top: 7px;
+
+}
+
+.user-details h4 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.user-details p {
+  font-size: 12px;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.footer {
+  margin-top: 10px;
+  font-size: 8px;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  justify-content: space-between;
+}
+.footer span + span {
+  margin-left: 20px; 
+}
+
+.footer a {
+  text-decoration: none;
+  color: #777;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: #000;
+}
